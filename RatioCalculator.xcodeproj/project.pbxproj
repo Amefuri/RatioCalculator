@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7293071F1E5FE0D700C234A9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7293071E1E5FE0D700C234A9 /* Podfile */; };
+		729307231E5FF4D700C234A9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729307221E5FF4D700C234A9 /* BaseViewController.swift */; };
+		729307251E5FF4FF00C234A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729307241E5FF4FF00C234A9 /* MainViewController.swift */; };
+		729307271E5FF50B00C234A9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729307261E5FF50B00C234A9 /* MainViewModel.swift */; };
+		72DF1F581E5EF31C00C8E985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DF1F571E5EF31C00C8E985 /* AppDelegate.swift */; };
+		72DF1F5A1E5EF31C00C8E985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DF1F591E5EF31C00C8E985 /* ViewController.swift */; };
+		72DF1F5D1E5EF31C00C8E985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DF1F5B1E5EF31C00C8E985 /* Main.storyboard */; };
+		72DF1F5F1E5EF31C00C8E985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DF1F5E1E5EF31C00C8E985 /* Assets.xcassets */; };
+		72DF1F621E5EF31C00C8E985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DF1F601E5EF31C00C8E985 /* LaunchScreen.storyboard */; };
+		72DF1F6D1E5EF31D00C8E985 /* RatioCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DF1F6C1E5EF31D00C8E985 /* RatioCalculatorTests.swift */; };
+		72DF1F781E5EF3DE00C8E985 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DF1F771E5EF3DE00C8E985 /* GCD.swift */; };
+		9A0AFC15B75F74FD813EFB00 /* Pods_RatioCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4676E2075AE2941A75B470C /* Pods_RatioCalculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72DF1F691E5EF31D00C8E985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DF1F4C1E5EF31C00C8E985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DF1F531E5EF31C00C8E985;
+			remoteInfo = RatioCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7293071E1E5FE0D700C234A9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		729307221E5FF4D700C234A9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		729307241E5FF4FF00C234A9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		729307261E5FF50B00C234A9 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		72DF1F541E5EF31C00C8E985 /* RatioCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatioCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DF1F571E5EF31C00C8E985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72DF1F591E5EF31C00C8E985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72DF1F5C1E5EF31C00C8E985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72DF1F5E1E5EF31C00C8E985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72DF1F611E5EF31C00C8E985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72DF1F631E5EF31C00C8E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DF1F681E5EF31D00C8E985 /* RatioCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatioCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DF1F6C1E5EF31D00C8E985 /* RatioCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioCalculatorTests.swift; sourceTree = "<group>"; };
+		72DF1F6E1E5EF31D00C8E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DF1F771E5EF3DE00C8E985 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		88DD2B68CDFF59C7AB0D061D /* Pods-RatioCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatioCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RatioCalculator/Pods-RatioCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		9E82477E7C21C193AF7797A4 /* Pods-RatioCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatioCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RatioCalculator/Pods-RatioCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		B4676E2075AE2941A75B470C /* Pods_RatioCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatioCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72DF1F511E5EF31C00C8E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0AFC15B75F74FD813EFB00 /* Pods_RatioCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DF1F651E5EF31D00C8E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		729307201E5FEDB800C234A9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				729307211E5FEDCD00C234A9 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		729307211E5FEDCD00C234A9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				729307221E5FF4D700C234A9 /* BaseViewController.swift */,
+				729307241E5FF4FF00C234A9 /* MainViewController.swift */,
+				729307261E5FF50B00C234A9 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		72DF1F4B1E5EF31C00C8E985 = {
+			isa = PBXGroup;
+			children = (
+				7293071E1E5FE0D700C234A9 /* Podfile */,
+				72DF1F561E5EF31C00C8E985 /* RatioCalculator */,
+				72DF1F6B1E5EF31D00C8E985 /* RatioCalculatorTests */,
+				72DF1F551E5EF31C00C8E985 /* Products */,
+				E313FB0742928134746A2799 /* Pods */,
+				9003850FBA7624D9709916EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72DF1F551E5EF31C00C8E985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DF1F541E5EF31C00C8E985 /* RatioCalculator.app */,
+				72DF1F681E5EF31D00C8E985 /* RatioCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72DF1F561E5EF31C00C8E985 /* RatioCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				729307201E5FEDB800C234A9 /* Scenes */,
+				72DF1F571E5EF31C00C8E985 /* AppDelegate.swift */,
+				72DF1F591E5EF31C00C8E985 /* ViewController.swift */,
+				72DF1F5B1E5EF31C00C8E985 /* Main.storyboard */,
+				72DF1F5E1E5EF31C00C8E985 /* Assets.xcassets */,
+				72DF1F601E5EF31C00C8E985 /* LaunchScreen.storyboard */,
+				72DF1F631E5EF31C00C8E985 /* Info.plist */,
+				72DF1F771E5EF3DE00C8E985 /* GCD.swift */,
+			);
+			path = RatioCalculator;
+			sourceTree = "<group>";
+		};
+		72DF1F6B1E5EF31D00C8E985 /* RatioCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				72DF1F6C1E5EF31D00C8E985 /* RatioCalculatorTests.swift */,
+				72DF1F6E1E5EF31D00C8E985 /* Info.plist */,
+			);
+			path = RatioCalculatorTests;
+			sourceTree = "<group>";
+		};
+		9003850FBA7624D9709916EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4676E2075AE2941A75B470C /* Pods_RatioCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E313FB0742928134746A2799 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DD2B68CDFF59C7AB0D061D /* Pods-RatioCalculator.debug.xcconfig */,
+				9E82477E7C21C193AF7797A4 /* Pods-RatioCalculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72DF1F531E5EF31C00C8E985 /* RatioCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DF1F711E5EF31D00C8E985 /* Build configuration list for PBXNativeTarget "RatioCalculator" */;
+			buildPhases = (
+				760D4118FC60A505B9247F3B /* [CP] Check Pods Manifest.lock */,
+				72DF1F501E5EF31C00C8E985 /* Sources */,
+				72DF1F511E5EF31C00C8E985 /* Frameworks */,
+				72DF1F521E5EF31C00C8E985 /* Resources */,
+				A9922338D10604DB2F203C21 /* [CP] Embed Pods Frameworks */,
+				FFF4CBB46E4D34822302ACB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatioCalculator;
+			productName = RatioCalculator;
+			productReference = 72DF1F541E5EF31C00C8E985 /* RatioCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72DF1F671E5EF31D00C8E985 /* RatioCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DF1F741E5EF31D00C8E985 /* Build configuration list for PBXNativeTarget "RatioCalculatorTests" */;
+			buildPhases = (
+				72DF1F641E5EF31D00C8E985 /* Sources */,
+				72DF1F651E5EF31D00C8E985 /* Frameworks */,
+				72DF1F661E5EF31D00C8E985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DF1F6A1E5EF31D00C8E985 /* PBXTargetDependency */,
+			);
+			name = RatioCalculatorTests;
+			productName = RatioCalculatorTests;
+			productReference = 72DF1F681E5EF31D00C8E985 /* RatioCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DF1F4C1E5EF31C00C8E985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = daydreamclover;
+				TargetAttributes = {
+					72DF1F531E5EF31C00C8E985 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PDE65S5MLH;
+						ProvisioningStyle = Automatic;
+					};
+					72DF1F671E5EF31D00C8E985 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PDE65S5MLH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72DF1F531E5EF31C00C8E985;
+					};
+				};
+			};
+			buildConfigurationList = 72DF1F4F1E5EF31C00C8E985 /* Build configuration list for PBXProject "RatioCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72DF1F4B1E5EF31C00C8E985;
+			productRefGroup = 72DF1F551E5EF31C00C8E985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72DF1F531E5EF31C00C8E985 /* RatioCalculator */,
+				72DF1F671E5EF31D00C8E985 /* RatioCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72DF1F521E5EF31C00C8E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DF1F621E5EF31C00C8E985 /* LaunchScreen.storyboard in Resources */,
+				72DF1F5F1E5EF31C00C8E985 /* Assets.xcassets in Resources */,
+				7293071F1E5FE0D700C234A9 /* Podfile in Resources */,
+				72DF1F5D1E5EF31C00C8E985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DF1F661E5EF31D00C8E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		760D4118FC60A505B9247F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9922338D10604DB2F203C21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RatioCalculator/Pods-RatioCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF4CBB46E4D34822302ACB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RatioCalculator/Pods-RatioCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DF1F501E5EF31C00C8E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DF1F781E5EF3DE00C8E985 /* GCD.swift in Sources */,
+				729307231E5FF4D700C234A9 /* BaseViewController.swift in Sources */,
+				72DF1F5A1E5EF31C00C8E985 /* ViewController.swift in Sources */,
+				72DF1F581E5EF31C00C8E985 /* AppDelegate.swift in Sources */,
+				729307251E5FF4FF00C234A9 /* MainViewController.swift in Sources */,
+				729307271E5FF50B00C234A9 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DF1F641E5EF31D00C8E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DF1F6D1E5EF31D00C8E985 /* RatioCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DF1F6A1E5EF31D00C8E985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DF1F531E5EF31C00C8E985 /* RatioCalculator */;
+			targetProxy = 72DF1F691E5EF31D00C8E985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72DF1F5B1E5EF31C00C8E985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DF1F5C1E5EF31C00C8E985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72DF1F601E5EF31C00C8E985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DF1F611E5EF31C00C8E985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72DF1F6F1E5EF31D00C8E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72DF1F701E5EF31D00C8E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72DF1F721E5EF31D00C8E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DD2B68CDFF59C7AB0D061D /* Pods-RatioCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDE65S5MLH;
+				INFOPLIST_FILE = RatioCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daydreamclover.RatioCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		72DF1F731E5EF31D00C8E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E82477E7C21C193AF7797A4 /* Pods-RatioCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDE65S5MLH;
+				INFOPLIST_FILE = RatioCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daydreamclover.RatioCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		72DF1F751E5EF31D00C8E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDE65S5MLH;
+				INFOPLIST_FILE = RatioCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daydreamclover.RatioCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatioCalculator.app/RatioCalculator";
+			};
+			name = Debug;
+		};
+		72DF1F761E5EF31D00C8E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDE65S5MLH;
+				INFOPLIST_FILE = RatioCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daydreamclover.RatioCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatioCalculator.app/RatioCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72DF1F4F1E5EF31C00C8E985 /* Build configuration list for PBXProject "RatioCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DF1F6F1E5EF31D00C8E985 /* Debug */,
+				72DF1F701E5EF31D00C8E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DF1F711E5EF31D00C8E985 /* Build configuration list for PBXNativeTarget "RatioCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DF1F721E5EF31D00C8E985 /* Debug */,
+				72DF1F731E5EF31D00C8E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DF1F741E5EF31D00C8E985 /* Build configuration list for PBXNativeTarget "RatioCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DF1F751E5EF31D00C8E985 /* Debug */,
+				72DF1F761E5EF31D00C8E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72DF1F4C1E5EF31C00C8E985 /* Project object */;
+}
